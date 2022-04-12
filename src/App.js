@@ -1,7 +1,7 @@
 import {Header} from './components/header'
 import {Slider} from './components/carouselSlider'
 import { CTACards } from './components/ctaCards';
-import { MoreInfoCarousel } from './components/moreInfoCarousel';
+import { MoreInfoCarousel } from './components/moreInfoCarousel/moreInfoCarousel';
 import {BestCasinoGames} from './components/casinoGames'
 import './App.css';
 
