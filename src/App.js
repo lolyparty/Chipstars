@@ -1,4 +1,4 @@
-import {Header} from './components/header'
+import {Header} from './components/header/header'
 import {Slider} from './components/carouselSlider'
 import { CTACards } from './components/ctaCards';
 import { MoreInfoCarousel } from './components/moreInfoCarousel/moreInfoCarousel';
