@@ -14,13 +14,6 @@ const BestCasinoGames = () =>{
           danger: '#e53e3e',
         },
         palette: {
-          primary:{
-              main:'#fff'
-          },
-          neutral: {
-            main: '#64748B',
-            contrastText: '#fff',
-          },
           secondary:{
               main:'#AD0F0A',
           },
@@ -65,7 +58,7 @@ const BestCasinoGames = () =>{
                 <hr className="bestGamesUnderline" />
                 <div className="goToCasinoDiv">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <Button variant='contained' color='secondary'>Go to Casino</Button>
+                    <Button variant='contained' color='secondary' sx={{paddingX:'50px', borderRadius:'5px'}}>Go to Casino</Button>
                 </div>
             </Box>
         </Container> 
