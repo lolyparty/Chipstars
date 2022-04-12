@@ -17,6 +17,7 @@ body{
     height: 10px;
 }
 
+/* call to action cards section */
 .ctaDivs{
     /* display:inline-block; */
     margin:15px 30px;
@@ -35,6 +36,8 @@ body{
     margin-left:50px;
 }
 
+
+/* Best games section */
 .BestCasinoGamesContainer{
     position:relative;
     padding-bottom: 10px;
