@@ -1,6 +1,8 @@
 import {Header} from './components/header'
 import {Slider} from './components/carouselSlider'
 import { CTACards } from './components/ctaCards';
+import { MoreInfoCarousel } from './components/moreInfoCarousel';
+import {BestCasinoGames} from './components/casinoGames'
 import './App.css';
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
       <Header />
       <Slider />
       <CTACards />
+      <MoreInfoCarousel />
+      <BestCasinoGames />
     </div>
   );
 }

@@ -30,3 +30,53 @@ body{
 .ctaHero{
     word-wrap: break-word;
 }
+
+#depositRightArrow{
+    margin-left:50px;
+}
+
+.BestCasinoGamesContainer{
+    position:relative;
+    padding-bottom: 10px;
+    border-radius: 15px !important;
+}
+
+.bestgamesHeader{
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    padding:50px 5px;
+}
+
+.bestgamesHeader select{
+    background:#201F1F;
+    color:white;
+    font-family: 'Montserrat';
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 10px;
+    width:230px;
+}
+
+.bestGamesImg{
+    height:100%;
+    width:100%;
+}
+
+.bestGamesUnderline{
+    border-color:#121212;
+    margin:35px 0px;
+
+}
+
+.goToCasinoDiv{
+    display:flex;
+    color:white;
+    justify-content: space-between;
+    gap:40px;
+    padding:15px;
+}
+
+.goToCasinoDiv p{
+    max-width:70%;
+}
