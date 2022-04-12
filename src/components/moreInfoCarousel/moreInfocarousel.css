@@ -22,7 +22,7 @@
 .carousel-slide div{
     display:flex;
     justify-content: space-between;
-    margin:25px 5px 15px 5px;
+    margin:35px 5px 15px 5px;
 }
 
 .carousel-slide img {
@@ -46,6 +46,13 @@
   width: 50%;
 }
 
-/* .swiper-pagination{
+.carousel .swiper-pagination{
     bottom:230px !important;
-} */
+}
+
+.carousel .swiper-pagination-bullet-active{
+    background:white !important;
+    width:25px;
+    height:8px;
+    border-radius: 35%;
+}
