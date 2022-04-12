@@ -1,26 +1,9 @@
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Link from '@mui/material/Link'
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { ThemeProvider} from '@mui/material/styles';
 import Logo from './Imgs/Logo.svg'
-
-const theme = createTheme({
-    status: {
-      danger: '#e53e3e',
-    },
-    palette: {
-      primary:{
-          main:'#fff'
-      },
-      neutral: {
-        main: '#64748B',
-        contrastText: '#fff',
-      },
-      secondary:{
-          main:'#AD0F0A',
-      },
-    },
-  });
+import {theme} from './muiTheme'
 
 const Header = ()=>{
     

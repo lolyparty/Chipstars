@@ -8,17 +8,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import cashback from '../Imgs/cashback-mob.svg'
 import jetx3 from '../Imgs/jetx3-mob.svg'
 import bettingSunday from '../Imgs/jetx3-mob1.svg'
+import {theme} from '../muiTheme'
 
 
 
 const MoreInfoCarousel = ()=> {
-    const theme = createTheme({
-        palette: {
-          primary:{
-              main:'#fff'
-          },
-        },
-      });
   return (
     <ThemeProvider theme={theme}>
       <Swiper slidesPerView={"auto"}

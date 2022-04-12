@@ -7,19 +7,10 @@ import hellhot from './Imgs/Hellhot.svg'
 import crystalFruits from './Imgs/crystalfruits.svg'
 import Nefertitis from './Imgs/nefertitis.svg'
 import sugarGlider from './Imgs/sugarglider.svg'
+import {theme} from './muiTheme'
+
 
 const BestCasinoGames = () =>{
-    const theme = createTheme({
-        status: {
-          danger: '#e53e3e',
-        },
-        palette: {
-          secondary:{
-              main:'#AD0F0A',
-          },
-        },
-      });
-
     return <ThemeProvider theme={theme}>
         <Container className="BestCasinoGamesContainer">
             <div className="bestgamesHeader">
