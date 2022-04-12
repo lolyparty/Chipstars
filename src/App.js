@@ -1,6 +1,6 @@
 import {Header} from './components/header'
 import {Slider} from './components/carouselSlider'
-import { CTACards } from './components/callToActionCards';
+import { CTACards } from './components/ctaCards';
 import './App.css';
 
 function App() {

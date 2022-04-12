@@ -16,3 +16,17 @@ body{
     border-radius: 20px;
     height: 10px;
 }
+
+.ctaDivs{
+    /* display:inline-block; */
+    margin:15px 30px;
+}
+
+.ctaParagraphs{
+    color:#B6B6B6;
+    font-size:14px;
+}
+
+.ctaHero{
+    word-wrap: break-word;
+}
