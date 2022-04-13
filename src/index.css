@@ -113,6 +113,7 @@ body{
     z-index: -9999;
     max-height:400px;
     max-width:400px;
+    display: none;
 }
 
 /* media query 1250 */
@@ -222,6 +223,10 @@ body{
     .pseudoContainer{
         min-height: 270px;
         width:100%;
+    }
+
+    .eclipsediv2{
+        display: block;
     }
 }
 
