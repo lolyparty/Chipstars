@@ -17,6 +17,10 @@ body{
     height: 10px;
 }
 
+.herocarousel{
+    min-height:400px;
+}
+
 /* call to action cards section */
 .ctaDivs{
     /* display:inline-block; */
@@ -92,7 +96,6 @@ body{
 
     .goToCasinoDiv p{
         max-width:65%;
-
     }
 
     .goToCasinoDiv{
@@ -132,5 +135,13 @@ body{
 
     .ctaDivs{
         margin:15px 15px;
+    }
+
+    .goToCasinoDiv p{
+        font-size:13px;
+    }
+    
+    .goToCasinoDiv{
+        padding:5px;
     }
 }

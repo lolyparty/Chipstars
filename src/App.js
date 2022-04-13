@@ -1,5 +1,5 @@
 import {Header} from './components/header/header'
-import {Slider} from './components/carouselSlider'
+import {Slider} from './components/Herosection'
 import { CTACards } from './components/ctaCards';
 import { MoreInfoCarousel } from './components/moreInfoCarousel/moreInfoCarousel';
 import {BestCasinoGames} from './components/casinoGames'

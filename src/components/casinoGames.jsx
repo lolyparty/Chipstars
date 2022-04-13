@@ -58,7 +58,7 @@ const BestCasinoGames = () =>{
                 <div className="goToCasinoDiv">
                     {matches500 ? <p>There is no better way to experience casino than to play one of our 2500+ games which are provided by more than 30+ different providers.
                     </p> : <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>}
-                    <Button variant='contained' color='secondary' sx={{paddingX:matches944 ? '20px' : '50px', borderRadius:'5px', maxHeight:'50px', maxWidth:matches700 ? '200px' : null, marginTop:matches700 ? '15px' :null}}>Go to Casino</Button>
+                    <Button variant='contained' color='secondary' sx={{paddingX:matches944 ? '20px' : '50px', borderRadius:'5px', maxHeight:'50px', maxWidth:matches700 ? '180px' : null, marginTop:matches700 ? '15px' :null}}>Go to Casino</Button>
                 </div>
             </Box>
         </Container> 

@@ -18,7 +18,7 @@ const Header = ()=>{
 
     return <ThemeProvider theme={theme}>
         
-        <Box elevation={0} sx={{backgroundColor:'black', padding:matches821 ? '15px 10px': matches964 ? '20px 25px' : '20px 45px', color:'white', display:'flex', alignItems:'center', justifyContent:'space-around'}}>
+        <Box elevation={0} sx={{backgroundColor:matches739 ? '#0F0F0F' :'black', padding:matches821 ? '15px 10px': matches964 ? '20px 25px' : '20px 45px', color:'white', display:'flex', alignItems:'center', justifyContent:'space-around'}}>
         {matches739 ? <Mobileheader matches739={matches739}/> : <>
             <img src={Logo} alt="Chipstars Logo" width={matches821 ? 100 : matches872 ? 115 : matches1244 ?  150 :  200} height={40}/>
         <Box sx={{display:'flex', justifyContent:matches1244 ? 'space-betwwen' : 'space-evenly'}}>
