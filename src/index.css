@@ -7,7 +7,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: #121212;
-
+    overflow-x: hidden;
 }
 
 .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet{
@@ -97,6 +97,22 @@ body{
     top:-15%;
     left:0%;
     z-index: -9999;
+}
+
+.bgeclipse2{    
+    filter: blur(100px);
+    filter: brightness(0.5);
+    z-index: -99999999;
+    transform:scale(-0.4)
+}
+
+.eclipsediv2{
+    position:absolute;
+    top:-15%;
+    left:15%;
+    z-index: -9999;
+    max-height:400px;
+    max-width:400px;
 }
 
 /* media query 1250 */
