@@ -12,7 +12,7 @@ const CTACards = ( ) =>{
     const matches929 = useMediaQuery('(max-width:929px)');
     const matches500 = useMediaQuery('(max-width:500px)');
 
-    return <Container sx={{background:'#121212', display:'flex', justifyContent:'space-evenly', paddingY:matches500 ? '10px' : '40px', flexDirection: matches929 ? 'column' : 'row', alignItems:'center'}}>
+    return <Container sx={{background:'#121212', display:'flex', justifyContent:'space-evenly', paddingY:matches500 ? '0px' : '40px', flexDirection: matches929 ? 'column' : 'row', alignItems:matches929 ? 'center' : null}}>
 
         <Paper sx={{background:'#121212', paddingY:matches929 ? '15px':'5px',paddingX:matches929 ? '30px' :matches1190 ? '10px' : '30px', color:'white', boxShadow:'-2px 7px 10px 5px #0a0a0a', alignItems:'center', borderRadius:'10px', width:matches500 ? '310px' : matches929 ? '400px' :matches1050 ? '280px' :matches1190 ? '320px' :'350px', display:'flex' , marginY:matches929 ? '15px' : null, justifyContent:matches929? 'space-between' : null}}
         >

@@ -17,7 +17,7 @@ const Slider = ()=> {
   return (
     <>
       <ThemeProvider theme={theme}>
-              {matches510 ? <Box sx={{backgroundImage:`url(${mobileBg})`, backgroundRepeat:'no-repeat', backgroundSize:'100%', width:'100%', height: matches310 ? '310px' : matches420 ? '440px' : matches510 ? '500px' : '370px'}}>
+              {matches510 ? <Box sx={{backgroundImage:`url(${mobileBg})`, backgroundRepeat:'no-repeat', backgroundSize:'100%', width:'100%', height: matches310 ? '310px' : matches420 ? '400px' : matches510 ? '500px' : '370px'}}>
                 <div className="pseudoContainer"></div>
               <Button  variant='contained' color='secondary' sx={{top:'10px', left:'10%', fontSize:matches510 ? '12px' : null, fontWeight: matches310 ? '400' : null}}>Get Started</Button>
             </Box> : 

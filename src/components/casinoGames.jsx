@@ -32,25 +32,25 @@ const BestCasinoGames = () =>{
             </div>
             <Box sx={{width:matches800 ? '95%' : '99%', marginX:'auto', borderRadius:'5px', padding:matches500 ? '10px' : matches800 ? '20px' : '30px', boxShadow:'-2px 7px 10px 5px #0a0a0a'}}>
                 <Grid container spacing={matches800 ? 1 : 2}>
-                    <Grid item xs={matches500 ? 12 : 6} sx={{maxHeight:'230px'}}>
+                    <Grid item xs={matches500 ? 12 : 7} sx={{maxHeight:'180px'}}>
                         <img className="bestGamesImg" src={matches500 ? santa : Alchemy} alt="" preserveAspectRatio="none"/>
                     </Grid>
-                    <Grid item xs={3} sx={{maxHeight:'230px', display: matches500 ? 'none' : null}}>
+                    <Grid item xs={2.5} sx={{maxHeight:'180px', display: matches500 ? 'none' : null}}>
                         <img className="bestGamesImg"  src={Bookofoziris} alt="" />
                     </Grid>
-                    <Grid item xs={matches500 ? 4 : 3} sx={{maxHeight:'230px', order:matches500 ? 7 : null}}>
+                    <Grid item xs={matches500 ? 4 : 2.5} sx={{maxHeight:'180px', order:matches500 ? 7 : null}}>
                         <img className="bestGamesImg"  src={WolfofGold} alt="" />
                     </Grid>
-                    <Grid item xs={matches500 ? 4 : 2} sx={{maxHeight:'230px'}}>
+                    <Grid item xs={matches500 ? 4 : 2.333} sx={{maxHeight:'180px'}}>
                         <img className="bestGamesImg"  src={hellhot} alt="" />
                     </Grid>
-                    <Grid item xs={matches500 ? 8 : 2} sx={{maxHeight:matches500 ? '150px' : '230px'}}>
+                    <Grid item xs={matches500 ? 8 : 2.33} sx={{maxHeight:matches500 ? '150px' : '180px'}}>
                         <img className="bestGamesImg"  src={crystalFruits} alt="" />
                     </Grid>
-                    <Grid item xs={2} sx={{maxHeight:'230px', display: matches500 ? 'none' : null}}>
+                    <Grid item xs={2.3333} sx={{maxHeight:'180px', display: matches500 ? 'none' : null}}>
                         <img className="bestGamesImg"  src={Nefertitis} alt="" />
                     </Grid>
-                    <Grid item xs={matches500 ? 8 : 6} sx={{maxHeight:'230px'}}>
+                    <Grid item xs={matches500 ? 8 : 5} sx={{maxHeight:'180px'}}>
                         <img className="bestGamesImg"  src={sugarGlider} alt="" />
                     </Grid>
                 </Grid>
