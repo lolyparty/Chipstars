@@ -94,9 +94,17 @@ body{
 
 .eclipsediv{
     position:absolute;
-    top:-35%;
+    top:-15%;
     left:0%;
     z-index: -9999;
+}
+
+/* media query 1250 */
+@media screen and (max-width:1250px) {
+    .bgeclipse{    
+        height:500px;
+        width:350px;
+    }
 }
 
 
@@ -164,8 +172,12 @@ body{
     }
 
     .bgeclipse{    
-        height:150px;
-        width:150px;
+        height:350px;
+        width:250px;
+    }
+
+    .bestgamesHeader{
+        padding:20px 10px;
     }
 }
 
@@ -173,6 +185,11 @@ body{
     .pseudoContainer{
         min-height: 350px;
         width:100%;
+    }
+
+    .eclipsediv{
+        top:-10%;
+        left:0%;
     }
 }
 
