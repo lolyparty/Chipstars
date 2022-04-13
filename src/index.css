@@ -23,7 +23,6 @@ body{
 
 /* call to action cards section */
 .ctaDivs{
-    /* display:inline-block; */
     margin:15px 30px;
 }
 
@@ -42,13 +41,15 @@ body{
     position:relative;
     padding-bottom: 10px;
     border-radius: 15px !important;
+    background:'#121212';
+    z-index:99999;
 }
 
 .bestgamesHeader{
     color:white;
     display:flex;
     justify-content: space-between;
-    padding:50px 5px;
+    padding:50px 55px;
 }
 
 .bestgamesHeader select{
@@ -58,7 +59,7 @@ body{
     border-radius: 5px;
     border: 0px;
     padding: 5px 10px;
-    width:230px;
+    width:200px;
 }
 
 .bestGamesImg{
@@ -83,6 +84,23 @@ body{
     max-width:70%;
 }
 
+.bgeclipse{    
+    filter: blur(100px);
+    filter: brightness(0.5);
+    height:900px;
+    width:500px;
+    z-index: -99999999;
+}
+
+.eclipsediv{
+    position:absolute;
+    top:-35%;
+    left:0%;
+    z-index: -9999;
+}
+
+
+/* media query 1050 */
 @media screen and (max-width:1050px) {
     .ctaHero{
         font-size:13px;
@@ -144,6 +162,11 @@ body{
     .goToCasinoDiv{
         padding:5px;
     }
+
+    .bgeclipse{    
+        height:150px;
+        width:150px;
+    }
 }
 
 @media screen and (max-width:510px){
@@ -158,6 +181,8 @@ body{
         min-height: 300px;
         width:100%;
     }
+
+
 }
 
 @media screen and (max-width:440px){

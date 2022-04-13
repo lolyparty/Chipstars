@@ -10,6 +10,7 @@ import crystalFruits from './Imgs/crystalfruits.svg'
 import Nefertitis from './Imgs/nefertitis.svg'
 import sugarGlider from './Imgs/sugarglider.svg'
 import santa from './Imgs/santa.svg'
+import eclipse from './Imgs/Eclipse.svg'
 
 
 const BestCasinoGames = () =>{
@@ -19,7 +20,8 @@ const BestCasinoGames = () =>{
 
     const matches500 = useMediaQuery('(max-width:500px)');
 
-    return <ThemeProvider theme={theme}>
+    return <ThemeProvider theme={theme}><div style={{position:'relative', background:`Url${eclipse}`}}>
+        <div className="eclipsediv"><img src={eclipse} alt="" className="bgeclipse"/></div>
         <Container className="BestCasinoGamesContainer">
             <div className="bestgamesHeader">
                 <h2>Best Casino Games</h2>
@@ -30,7 +32,7 @@ const BestCasinoGames = () =>{
                     <option>POPULAR GAMES</option>
                 </select> : null}
             </div>
-            <Box sx={{width:matches800 ? '95%' : '99%', marginX:'auto', borderRadius:'5px', padding:matches500 ? '10px' : matches800 ? '20px' : '30px', boxShadow:'-2px 7px 10px 5px #0a0a0a'}}>
+            <Box sx={{width:matches800 ? '95%' : '90%', marginX:'auto', borderRadius:'5px', padding:matches500 ? '10px' : matches800 ? '20px' : '30px', boxShadow:'-2px 7px 10px 5px #0a0a0a', background:'#121212'}}>
                 <Grid container spacing={matches800 ? 1 : 2}>
                     <Grid item xs={matches500 ? 12 : 7} sx={{maxHeight:'180px'}}>
                         <img className="bestGamesImg" src={matches500 ? santa : Alchemy} alt="" preserveAspectRatio="none"/>
@@ -62,6 +64,8 @@ const BestCasinoGames = () =>{
                 </div>
             </Box>
         </Container> 
+        
+        </div>
     </ThemeProvider>   
 }
 

@@ -15,6 +15,7 @@ import {theme} from '../muiTheme'
 
 
 
+
 const MoreInfoCarousel = ()=> {
   return (
     <ThemeProvider theme={theme}>
