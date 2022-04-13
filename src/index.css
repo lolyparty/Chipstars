@@ -28,10 +28,6 @@ body{
     font-size:14px;
 }
 
-.ctaHero{
-    word-wrap: break-word;
-}
-
 #depositRightArrow{
     margin-left:50px;
 }
@@ -69,7 +65,6 @@ body{
 .bestGamesUnderline{
     border-color:#121212;
     margin:35px 0px;
-
 }
 
 .goToCasinoDiv{
@@ -82,4 +77,60 @@ body{
 
 .goToCasinoDiv p{
     max-width:70%;
+}
+
+@media screen and (max-width:1050px) {
+    .ctaHero{
+        font-size:13px;
+    }
+}
+
+@media screen and (max-width:930px) {
+    .ctaHero{
+        font-size:17.5px;
+    }
+
+    .goToCasinoDiv p{
+        max-width:65%;
+
+    }
+
+    .goToCasinoDiv{
+        gap:15px;
+        padding:10px;
+    }
+
+    .bestGamesUnderline{
+        margin:25px 0px;
+    }
+}
+@media screen and (max-width:700px) {
+    .goToCasinoDiv{
+        flex-direction: column;
+    }
+
+    .goToCasinoDiv p{
+        max-width:100%;
+    }
+
+    .bestGamesUnderline{
+        margin-bottom:15px;
+    }
+
+    .bestGamesImg{
+        max-height:100px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .ctaHero{
+        font-size:14.5px;
+    }
+    #depositRightArrow{
+        margin-left:10px;
+    }
+
+    .ctaDivs{
+        margin:15px 15px;
+    }
 }

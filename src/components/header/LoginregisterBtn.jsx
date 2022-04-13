@@ -1,6 +1,5 @@
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import MenuIcon from '@mui/icons-material/Menu';
 
 const LoginRegisterBtn = ({matches872, matches964, matches1244, matches739})=>{
     return <Box >
