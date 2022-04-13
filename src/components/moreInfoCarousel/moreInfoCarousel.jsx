@@ -1,5 +1,6 @@
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import {Button, Link} from '@mui/material'
+import useMediaQuery from '@mui/material/useMediaQuery';
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
@@ -31,7 +32,7 @@ const MoreInfoCarousel = ()=> {
       >
         <SwiperSlide className='carousel-slide'
             >
-            <img src={bettingSunday} alt="slider" />
+            <img src={cashback} alt="slider" />
             
         </SwiperSlide>
 
@@ -41,13 +42,13 @@ const MoreInfoCarousel = ()=> {
                 There is no better feeling than waking up on Saturday morning, and you know that there are plenty of games to watch and bet on. What if we say that we can make it even better?
                 </p>
                 <div>
-                  <Button color='primary' sx={{border:'1.5px solid #AD0F0A', borderRadius:'7px', fontSize: '13px'}} variant='outlined'>More Details</Button>
+                  <Button color='primary' sx={{border:'1.5px solid #AD0F0A', borderRadius:'7px', fontSize: '13px', paddingX:'25px'}} variant='outlined'>More Details</Button>
                   <Link underline='none' href='#'>Terms & Conditions</Link>
                 </div>
         </SwiperSlide>
 
         <SwiperSlide className='carousel-slide'>
-            <img src={cashback} alt="slider" />
+            <img src={bettingSunday} alt="slider" />
         </SwiperSlide>
       </Swiper>
     </ThemeProvider>

@@ -11,11 +11,15 @@ import mobileBg from './Imgs/mobileHerobg.svg'
 
 const Slider = ()=> {
   const matches510 = useMediaQuery('(max-width:510px)')
+  const matches310 = useMediaQuery('(max-width:310px)')
+  const matches420 = useMediaQuery('(max-width:440px)')
+
   return (
     <>
       <ThemeProvider theme={theme}>
-              {matches510 ? <Box sx={{backgroundImage:`url(${mobileBg})`, backgroundRepeat:'no-repeat', backgroundSize:'100%', width:'100%', height:'370px'}}>
-              <Button  variant='contained' color='secondary' sx={{top:'70%', left:'10%'}}>Get Started</Button>
+              {matches510 ? <Box sx={{backgroundImage:`url(${mobileBg})`, backgroundRepeat:'no-repeat', backgroundSize:'100%', width:'100%', height: matches310 ? '310px' : matches420 ? '440px' : matches510 ? '500px' : '370px'}}>
+                <div className="pseudoContainer"></div>
+              <Button  variant='contained' color='secondary' sx={{top:'10px', left:'10%', fontSize:matches510 ? '12px' : null, fontWeight: matches310 ? '400' : null}}>Get Started</Button>
             </Box> : 
             <Swiper pagination={{
               dynamicBullets: true,
