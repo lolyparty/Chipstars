@@ -1,3 +1,11 @@
+# Webpage pictures
+
+## Desktop
+![Desktop](https://i.postimg.cc/SRhJFpTL/chipstars.png)
+## Mobile 
+![mobile](https://i.postimg.cc/RhLqvbyk/chipstars-mobile.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
